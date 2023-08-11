@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.caixa{
+    width: 200px;
+    height: 70%;
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.luzes{
+    width: 125px;
+    height: 125px;
+    background-color: gainsboro;
+    display: flex;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#sinal_vermelho{
+    background-color: red;
+    opacity: 0.3;
+}
+
+#sinal_amarelo{
+    background-color:yellow;
+    opacity: 0.3;
+}
+
+#sinal_verde{
+    background-color: green;
+    opacity: 0.3;
+}
+
+.vermelho{
+    background-color: red;
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+
+.desligar{
+    background-color: gainsboro;
+}
